@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kidz-book-world</title>
+    <!---------------------link bootstrap cdn link------------------------------------>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--------------------------------google font link----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------------------------------font-icons------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        color: #000000;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Saira", sans-serif;
+        color: #660033;
+      }
+      .navbar {
+        background-color: #bf7587;
+      }
+      .navbar .navbar-brand img {
+        height: 3rem;
+        width: 3rem;
+      }
+      .navbar-nav .nav-item .nav-link.active {
+        background-color: #660033;
+      }
+      .span-style {
+        color: #660033;
+      }
+      .bg-footer {
+        background-color: #f4e3d7;
+      }
+      .hero-img img {
+        max-height: 50vh;
+        width: 100%;
+      }
+      .card .card-img-top {
+        height: 30vh;
+      }
+      .text-justify{
+        text-align: justify;
+      }
+      .story-img img{
+        max-height: 45vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-----------------------------------navbar------------------------------------>
+    <nav class="navbar navbar-expand-lg py-0 px-lg-5">
+      <!--start-container-->
+      <div class="container px-lg-5">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/book-23.jfif" class="img-fluid rounded-circle"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--start-collapse-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase text-white fw-bold"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="our-books.html"
+                >Our-books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="activities.html"
+                >Activities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--end-collapse-->
+      </div>
+      <!--end-container-->
+    </nav>
+
+    <!---------------------------home----------------------------------->
+    <!--start-container-->
+    <div class="container my-5 my-sm-5 my-md-4 px-lg-5">
+      <!----------------------------1st-sec-home---------------------------------->
+      <!--start-row-->
+      <div class="row g-4 align-items-center text-center">
+        <!--start-col-left-->
+        <div class="col-lg-5 col-12">
+          <h2 class="text-capitalize fw-bold m-0">
+            welocme to<br />
+            <span class="span-style text-capitalize fw-bold">
+              <i class="fa-solid fa-book"></i>
+              kidz book world
+              <i class="fa-solid fa-book"></i>
+            </span>
+          </h2>
+          <p class="text-capitalize fs-6 fw-bold m-0">
+            "Explore a World of Fun and Learning."
+          </p>
+          <p class="text-capitalize fs-6 fw-bold m-0">
+            "Step into a world of stories and Delight your little ones with
+            exciting journeys that will make reading a favorite part of their
+            day."
+          </p>
+        </div>
+        <!--ends-col-left-->
+        <!--start-col-right-->
+        <div class="col-lg-7 col-12">
+          <!--start-hero-img-->
+          <div class="hero-img">
+            <img src="./images/hero-banner.jfif" class="img-fluid" />
+          </div>
+          <!--end-hero-img-->
+        </div>
+        <!--ends-col-right-->
+      </div>
+      <!--ends-row-->
+      <!----------------------------2nd-sec-home---------------------------------->
+      <!--start-row-->
+      <div class="row g-4 my-3">
+        <h3 class="text-capitalize text-center">Open a Book, Open a World</h3>
+        <!--start-col-1-->
+        <div class="col-lg-3">
+          <h5 class="text-capitalize">
+            click here to explore our collection..!
+          </h5>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="about.html#alphabet" class="text-dark fw-bolder text-decoration-none"
+                >Alphabet books</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="about.html#story" class="text-dark fw-bolder text-decoration-none"
+                >Story books</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="about.html#activity" class="text-dark fw-bolder text-decoration-none"
+                >Learning & Activity Books</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="about.html#book-gift" class="text-dark fw-bolder text-decoration-none"
+                >Books for Gifts</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="about.html#rhyme" class="text-dark fw-bolder text-decoration-none"
+                >Rhyme Books</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="about.html#rhyme" class="text-dark fw-bolder text-decoration-none"
+                >Art & Craft Books</a
+              >
+            </li>
+          </ul>
+          <div class="explore-img mt-3">
+            <img src="./images/explore.jfif" class="img-fluid mx-auto d-block">
+          </div>
+        </div>
+        <!--end-col-1-->
+        <!--start-col-2-->
+        <div class="col-lg-6">
+          <h5 class="text-capitalize">
+            Every Story Opens a New World
+          </h5>
+          <p class="fs-6 text-justify">At Kidz Book World, we believe in the power of a good story. From sparking curiosity to building critical skills, books play a key role in helping children grow, learn, and explore. Whether it’s discovering new adventures, solving mysteries, or learning about the world, each book opens a door to endless possibilities. Here, parents can find the perfect books that nurture young minds and inspire a lifelong love of reading.</p>
+          <div class="alert alert-success" role="alert">
+            "New stories await! Discover books that spark curiosity, inspire learning, and open doors to endless journeys."
+          </div>
+          <!--start-story-img-->
+          <div class="story-img">
+            <img src="./images/home-2sec.jfif" class="img-fluid w-100">
+          </div>
+          <!--end-story-img--> 
+          <p class="fs-6 text-justify">Every book is a chance to grow. With stories that spark imagination and inspire learning, children explore new ideas, enhance creativity, and develop essential skills. Each page turned opens new doors to discovery</p>
+          <p class="fs-6 text-justify">Books are windows to endless possibilities. Through captivating tales and enriching stories, children not only connect with the world around them but also build their vocabulary and strengthen their understanding of different cultures. Our collection encourages curiosity, critical thinking, and a lifelong passion for learning, all while helping young minds grow and explore.</p>      
+        </div>
+        <!--end-col-2-->
+        <!--start-col-3-->
+        <div class="col-lg-3">
+          <h5 class="text-capitalize">
+            the power of reading..!
+          </h5>
+          <!--start-card-1-->
+          <div class="card mb-3">
+            <img src="./images/home-card-1.jfif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-justify">The Joy of Finding the Perfect Book</h5>
+              <p class="card-text fs-6 text-justify">
+                "Finding a new favorite book is thrilling. With help from teachers, kids learn to choose books that spark curiosity and imagination."
+              </p>
+            </div>
+          </div>
+          <!--end-card-1-->
+          <!--start-card-2-->
+          <div class="card">
+            <img src="./images/home-card-2.jfif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-justify">The Power of Independent Reading</h5>
+              <p class="card-text fs-6 text-justify">
+                Independent reading boosts creativity and literacy. As kids explore books, they connect with stories, characters, and ideas that shape their world.
+              </p>
+            </div>
+          </div>
+          <!--end-card-2-->
+        </div>
+        <!--end-col-3-->
+      </div>
+      <!--end-row-->
+    </div>
+    <!--ends-container-->
+
+    <!---------------------------------footer--------------------------------------->
+    <footer class="bg-footer my-5">
+      <!--start-container-footer-->
+      <div class="container px-5">
+        <!--start-row-->
+        <div class="row g-3">
+          <!--start-col-1-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize">Our Play Zone</h5>
+            <h6 class="text-capitalize">"where to find us..!</h6>
+            <span class="span-style text-capitalize fw-bold">
+              <i class="fa-solid fa-book"></i>
+              kidz-book-world
+              <i class="fa-solid fa-book"></i
+            ></span>
+            <p class="fs-6 m-0">
+              <span class="text-capitalize fw-bold">streetname:</span>
+              "123 Toyland Avenue, Fun City"
+            </p>
+            <p class="fs-6 m-0">
+              <span class="text-capitalize fw-bold">mob:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                +91 123456789</a
+              >
+            </p>
+            <p class="fs-6 m-0">
+              <span class="text-capitalize fw-bold">email:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                kidzbookworld@gmail.com</a
+              >
+            </p>
+          </div>
+          <!--end-col-1-->
+          <!--start-col-2-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">stay updated</h5>
+            <ul class="list-inline mb-0">
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-whatsapp"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-facebook"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-instagram"></i></li
+              ></span>
+            </ul>
+            <h6 class="text-capitalize mt-2 mb-0">quick links</h6>
+            <ul class="list-inline mt-1">
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Order Tracking</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Shipping Information</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Returns & Exchanges</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-2-->
+          <!--start-col-3-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">explore our books</h5>
+            <ul class="list-inline">
+              <li class="text-capitalize">
+                <a href="about.html#albhabet" class="text-dark text-decoration-none"
+                  >Alphabet books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="about.html#story" class="text-dark text-decoration-none"
+                  >Story books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="about.html#activity" class="text-dark text-decoration-none"
+                  >Learning & Activity Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="about.html#book-gift" class="text-dark text-decoration-none"
+                  >Books for Gifts</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="about.html#rhyme" class="text-dark text-decoration-none"
+                  >Rhyme Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="about.html#art-craft" class="text-dark text-decoration-none"
+                  >Art & Craft Books</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-3-->
+        </div>
+        <p class="fs-6 fw-bold mx-auto text-center">
+          &copy; 2025
+          <span class="span-style text-capitalize">
+            <i class="fa-solid fa-book"></i>
+            kidz book world
+            <i class="fa-solid fa-book"></i> </span
+          >. All rights reserved.
+        </p>
+        <!--end-row-->
+      </div>
+      <!--end-container-footer-->
+    </footer>
+    <!-----------------------------link bootstarp js------------------------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

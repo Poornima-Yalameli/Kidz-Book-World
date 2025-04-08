@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kidz-book-world</title>
+    <!---------------------link bootstrap cdn link------------------------------------>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--------------------------------google font link----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------------------------------font-icons------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        color: #000000;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Saira", sans-serif;
+        color: #660033;
+      }
+      .navbar {
+        background-color: #bf7587;
+      }
+      .navbar .navbar-brand img {
+        height: 3rem;
+        width: 3rem;
+      }
+      .navbar-nav .nav-item .nav-link.active {
+        background-color: #660033;
+      }
+      .span-style {
+        color: #660033;
+      }
+      .bg-footer {
+        background-color: #f4e3d7;
+      }
+      .activity-banner img {
+        max-height: 40vh;
+        width: 100%;
+      }
+      .activity-img img {
+        max-height: 40vh;
+        width: 100%;
+      }
+      .activity img {
+        max-height: 35vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-----------------------------------navbar------------------------------------>
+    <nav class="navbar navbar-expand-lg py-0 px-lg-5">
+      <!--start-container-->
+      <div class="container px-lg-5">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/book-23.jfif" class="img-fluid rounded-circle"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--start-collapse-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="our-books.html"
+                >Our-books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase text-white fw-bold"
+                href="activities.html"
+                >Activities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--end-collapse-->
+      </div>
+      <!--end-container-->
+    </nav>
+
+    <!----------------------------------section-1-------------------------------->
+    <!--start-container-->
+    <div class="container my-5 my-sm-5 my-md-4 px-lg-5 bg-light">
+      <h3 class="text-capitalize text-center">
+        Join the Fun at Kidz Book World!
+      </h3>
+
+      <!--start-row-->
+      <div class="row g-4 align-items-center text-center">
+        <!--start-col-text-->
+        <div class="col-lg-6">
+          <p class="fs-5 fw-bold text-center">
+            "We offer exciting activities for kids like Storytelling, Art &
+            Craft, Quizzes, and more — both online and offline! Whether you're
+            visiting us in-store or joining virtually, there’s something for
+            every child to enjoy."<br />
+            "Bring your kids and let them explore, learn, and have fun!"
+          </p>
+        </div>
+        <!--end-col-text-->
+        <!--start-col-img-->
+        <div class="col-lg-6">
+          <div class="activity-banner">
+            <img src="./images/activity-2.jfif" class="img-fluid" />
+          </div>
+        </div>
+        <!--end-col-img-->
+      </div>
+      <!--end-row-->
+    </div>
+    <!--end-container-->
+    <!--------------------------------section-2----------------------------------->
+    <!--start-container-->
+    <div class="container my-5 my-sm-5 my-md-4 px-lg-5">
+      <h5 class="text-capitalize text-center">
+        here are the sessions to join us..!
+      </h5>
+      <!--start-row-->
+      <div class="row gx-lg-3">
+        <!--start-col-lg-8-->
+        <div class="col-lg-9">
+          <!--start-inner-row-->
+          <div class="row gx-lg-3">
+            <!--start-inner-col-left-->
+            <div class="col-lg-6 col-12">
+              <!--start-activities-div-->
+              <div class="border border-black p-3 h-100" id="story-telling">
+                <div class="activity">
+                  <img
+                    src="./images/storytelling.jfif"
+                    class="img-fluid w-100"
+                  />
+                </div>
+
+                <h5 class="fs-4">Storytelling Session</h5>
+                <p class="fs-5 text-justify">
+                  <strong>Activity Title:</strong>
+                  Storytelling
+                </p>
+                <p class="fs-6 text-justify">
+                  <strong>Description:</strong>
+                  Create a fun, interactive session where kids listen to
+                  exciting stories. You could pick different themes (e.g., fairy
+                  tales, adventures, moral stories).<br />
+                  Involve kids by asking them to guess what happens next or ask
+                  questions related to the story.
+                </p>
+
+                <strong class="fs-5">Rules/Guidelines:</strong><br />
+                <p class="fs-6 text-justify">
+                  Listen quietly.<br />
+                  Raise your hand to share your thoughts.<br />
+                  No interrupting the storyteller.<br />
+                </p>
+                <strong class="fs-5">Call To Action:</strong><br />
+                <p class="fs-6 text-justify">
+                  "Join the Storytelling Session! Click the button below to sign
+                  up and participate."
+                </p>
+                <button type="button" class="btn btn-success">Join-Now</button>
+              </div>
+              <!--end-activities-div-->
+            </div>
+            <!--end-inner-col-left-->
+
+            <!--start-inner-col-right-->
+            <div class="col-lg-6 col-12 mt-lg-0 mt-3">
+              <!--start-activities-div-->
+              <div class="border border-black p-3 h-100" id="art-craft">
+                <div class="activity">
+                  <img
+                    src="./images/art-craft-2.jfif"
+                    class="img-fluid w-100"
+                  />
+                </div>
+
+                <h5 class="fs-4">Art & Craft Workshop</h5>
+                <p class="fs-5 text-justify">
+                  <strong>Activity Title:</strong>
+                  Art & Craft Workshop
+                </p>
+                <p class="fs-6 text-justify">
+                  <strong>Description:</strong>
+                  Encourage creativity by having kids make something fun (e.g.,
+                  painting, coloring, making collages).
+                  <br />
+                  Provide a theme for the day, like “Under the Sea” or “My Dream
+                  World”.
+                </p>
+
+                <strong class="fs-5">Rules/Guidelines:</strong><br />
+                <p class="fs-6 text-justify">
+                  Be respectful of other kids' work.
+                  <br />
+                  Clean up your workspace after the activity.
+                  <br />
+                  Share your artwork with the group at the end.<br />
+                </p>
+                <strong class="fs-5">Call To Action:</strong><br />
+                <p class="fs-6 text-justify">
+                  "Join the Storytelling Session! Click the button below to sign
+                  up and participate."
+                </p>
+                <button type="button" class="btn btn-success">Join-Now</button>
+              </div>
+              <!--end-inner-col-right-->
+            </div>
+            <!--end-activities-div-->
+          </div>
+          <!--end-inner-row-->
+          <!------------------------------------>
+          <!--start-inner-row-->
+          <div class="row gx-lg-3 mt-3">
+            <!--start-inner-col-left-->
+            <div class="col-lg-6 col-12">
+              <!--start-activities-div-->
+              <div class="border border-black p-3 h-100" id="reading">
+                <div class="activity">
+                  <img src="./images/reading-4.jfif" class="img-fluid w-100" />
+                </div>
+
+                <h5 class="fs-4">Reading Challenge</h5>
+                <p class="fs-5 text-justify">
+                  <strong>Activity Title:</strong>
+                  Summer Reading Challenge
+                </p>
+                <p class="fs-6 text-justify">
+                  <strong>Description:</strong>
+                  Motivate kids to read more books with a fun challenge. For
+                  example, read 10 books in a month and earn a small reward.<br />
+                  You can display a reading list of fun books for kids of
+                  various ages.
+                </p>
+
+                <strong class="fs-5">Rules/Guidelines:</strong><br />
+                <p class="fs-6 text-justify">
+                  Keep track of the books you’ve read in a log.
+                  <br />
+                  Read at least one book per week.
+                  <br />
+                  Read at least one book per week.
+                  <br />
+                </p>
+                <strong class="fs-5">Call To Action:</strong><br />
+                <p class="fs-6 text-justify">
+                  "Ready to Start the Challenge? Click here to join the Summer
+                  Reading Challenge and win prizes!"
+                </p>
+                <button type="button" class="btn btn-success">Join-Now</button>
+              </div>
+              <!--end-activities-div-->
+            </div>
+            <!--end-inner-col-left-->
+
+            <!--start-inner-col-right-->
+            <div class="col-lg-6 col-12 mt-lg-0 mt-3">
+              <!--start-activities-div-->
+              <div class="border border-black p-3 h-100" id="quiz">
+                <div class="activity">
+                  <img src="./images/quiz-2.jfif" class="img-fluid w-100" />
+                </div>
+
+                <h5 class="fs-4">Interactive Quiz</h5>
+                <p class="fs-5 text-justify">
+                  <strong>Activity Title:</strong>
+                  Kids Book Quiz
+                </p>
+                <p class="fs-6 text-justify">
+                  <strong>Description:</strong>
+                  Test kids' knowledge with a fun, interactive quiz based on
+                  popular children's books or general knowledge.
+                  <br />
+                  Categories could include "Fairy Tales," "Animals in Stories,"
+                  or "Books by Author.”.
+                </p>
+
+                <strong class="fs-5">Rules/Guidelines:</strong><br />
+                <p class="fs-6 text-justify">
+                  Answer as many questions as you can within the time limit.
+                  <br />
+                  Get at least 5 answers correct to win a prize!
+                  <br />
+                </p>
+                <strong class="fs-5">Call To Action:</strong><br />
+                <p class="fs-6 text-justify">
+                  "Test Your Knowledge! Click here to take the Kids Book Quiz"
+                </p>
+                <button type="button" class="btn btn-success">Join-Now</button>
+              </div>
+              <!--end-activities-div-->
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-->
+          <!------------------------------------>
+          <!--start-inner-row-->
+          <div class="row gx-lg-3 mt-3">
+            <!--start-inner-col-left-->
+            <div class="col-lg-6 col-12">
+              <!--start-activities-div-->
+              <div class="border border-black p-3 h-100" id="puzzle">
+                <div class="activity">
+                  <img src="./images/puzzle.jfif" class="img-fluid w-100" />
+                </div>
+                <!-- <ol> -->
+                <h5 class="fs-4">Puzzle Solving Activity</h5>
+                <p class="fs-5 text-justify">
+                  <strong>Activity Title:</strong>
+                  Puzzle Solving Challenge
+                </p>
+                <p class="fs-6 text-justify">
+                  <strong>Description:</strong>
+                  Have a collection of different puzzles (word searches,
+                  crossword puzzles, etc.) related to children’s books, fairy
+                  tales, or animals.
+                  <br />
+                  This is a great way to engage kids and develop problem-solving
+                  skills while making learning fun.
+                </p>
+
+                <strong class="fs-5">Rules/Guidelines:</strong><br />
+                <p class="fs-6 text-justify">
+                  Complete the puzzles within 30 minutes.<br />
+                  Work individually or in small teams.
+                  <br />
+                </p>
+                <strong class="fs-5">Call To Action:</strong><br />
+                <p class="fs-6 text-justify">
+                  "Ready to Solve Puzzles? Click here to download the activity
+                  and get started!"
+                </p>
+                <button type="button" class="btn btn-success">Join-Now</button>
+              </div>
+              <!--end-activities-div-->
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-6 col-12 mt-lg-0 mt-3">
+              <!--start-activities-div-->
+              <div class="border border-black p-3 h-100" id="hunt">
+                <div class="activity">
+                  <img src="./images/hunt.jfif" class="img-fluid w-100" />
+                </div>
+                <!-- <ol> -->
+                <h5 class="fs-4">Book-Themed Treasure Hunt</h5>
+                <p class="fs-5 text-justify">
+                  <strong>Activity Title:</strong>
+                  Art & Craft Workshop
+                </p>
+                <p class="fs-6 text-justify">
+                  <strong>Description:</strong>
+                  Organize a treasure hunt where each clue leads to a famous
+                  children’s book or character. As kids find each clue, they get
+                  closer to the treasure!
+
+                  <br />
+                  You can hide clues around the bookstore or virtually for an
+                  online treasure hunt.
+                </p>
+
+                <strong class="fs-5">Rules/Guidelines:</strong><br />
+                <p class="fs-6 text-justify">
+                  Follow the clues in order.
+                  <br />
+                  Work in teams or individually.
+
+                  <br />
+                  The first one to find the treasure wins a prize!
+                  <br />
+                </p>
+                <strong class="fs-5">Call To Action:</strong><br />
+                <p class="fs-6 text-justify">
+                  "Start Your Hunt! Click here for clues and get started on your
+                  adventure."
+                </p>
+                <button type="button" class="btn btn-success">Join-Now</button>
+              </div>
+              <!--end-activities-div-->
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-->
+          <!------------------------------------>
+        </div>
+        <!--end-col-lg-9-->
+        <!--start-col-lg-4-->
+        <div class="col-lg-3 col-12 mt-lg-0 mt-2">
+          <div class="alert alert-success" role="alert">
+            <strong>Tips:</strong><br />
+            <strong>Fun and Engaging Titles:</strong> Make sure the titles of each activity are
+            fun and inviting. This will encourage kids to click and participate.
+            <br />
+            <strong>Interactive Elements:</strong> Activities like quizzes or treasure hunts can
+            include interactive elements that make the kids feel more
+            involved.<br />
+            <strong> Visuals:</strong> Use playful images or icons for each activity to make it
+            visually appealing and to help kids connect with the activity
+            easily.
+          </div>
+          <h5 class="text-capitalize">join us for activities..!</h5>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a
+                href="#storytelling"
+                class="text-dark fw-bolder text-decoration-none"
+                >Story telling</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href="#art-craft"
+                class="text-dark fw-bolder text-decoration-none"
+                >Art-Craft</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href="#reading"
+                class="text-dark fw-bolder text-decoration-none"
+                >Reading</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#quiz" class="text-dark fw-bolder text-decoration-none"
+                >Interactive-Quiz</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#puzzle" class="text-dark fw-bolder text-decoration-none"
+                >Puzzle</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#hunt" class="text-dark fw-bolder text-decoration-none"
+                >Book-Themed-Hunt</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--end-col-lg-4-->
+      </div>
+      <!--end-row-->
+    </div>
+    <!--end-container-->
+
+    <!---------------------------------footer--------------------------------------->
+    <footer class="bg-footer">
+      <!--start-container-footer-->
+      <div class="container px-5">
+        <!--start-row-->
+        <div class="row g-3">
+          <!--start-col-1-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize">Our Play Zone</h5>
+            <h6 class="text-capitalize">"where to find us..!</h6>
+            <span class="span-style text-capitalize fw-bold">
+              <i class="fa-solid fa-book"></i>
+              kidz-book-world
+              <i class="fa-solid fa-book"></i
+            ></span>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">streetname:</span>
+              "123 Toyland Avenue, Fun City"
+            </p>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">mob:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                +91 123456789</a
+              >
+            </p>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">email:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                kidzbookworld@gmail.com</a
+              >
+            </p>
+          </div>
+          <!--end-col-1-->
+          <!--start-col-2-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">stay updated</h5>
+            <ul class="list-inline mb-0">
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-whatsapp"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-facebook"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-instagram"></i></li
+              ></span>
+            </ul>
+            <h6 class="text-capitalize mt-2 mb-0">quick links</h6>
+            <ul class="list-inline mt-1">
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Order Tracking</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Shipping Information</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Returns & Exchanges</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-2-->
+          <!--start-col-3-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">explore our books</h5>
+            <ul class="list-inline">
+              <li class="text-capitalize">
+                <a
+                  href="about.html#albhabet"
+                  class="text-dark text-decoration-none"
+                  >Alphabet books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#story"
+                  class="text-dark text-decoration-none"
+                  >Story books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#activity"
+                  class="text-dark text-decoration-none"
+                  >Learning & Activity Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#book-gift"
+                  class="text-dark text-decoration-none"
+                  >Books for Gifts</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#rhyme"
+                  class="text-dark text-decoration-none"
+                  >Rhyme Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#art-craft"
+                  class="text-dark text-decoration-none"
+                  >Art & Craft Books</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-3-->
+        </div>
+        <p class="fw-bold mx-auto text-center">
+          &copy; 2025
+          <span class="span-style text-capitalize">
+            <i class="fa-solid fa-book"></i>
+            kidz-book-world
+            <i class="fa-solid fa-book"></i> </span
+          >. All rights reserved.
+        </p>
+        <!--end-row-->
+      </div>
+      <!--end-container-footer-->
+    </footer>
+    <!-----------------------------link bootstarp js------------------------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

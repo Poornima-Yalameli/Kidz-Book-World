@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kidz-book-world</title>
+    <!---------------------link bootstrap cdn link------------------------------------>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--------------------------------google font link----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------------------------------font-icons------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        color: #000000;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Saira", sans-serif;
+        color: #660033;
+      }
+      .navbar {
+        background-color: #bf7587;
+      }
+      .navbar .navbar-brand img {
+        height: 3rem;
+        width: 3rem;
+      }
+      .navbar-nav .nav-item .nav-link.active {
+        background-color: #660033;
+      }
+      .span-style {
+        color: #660033;
+      }
+      .bg-footer {
+        background-color: #f4e3d7;
+      }
+      .our-books img {
+        height: 20rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-----------------------------------navbar------------------------------------>
+    <nav class="navbar navbar-expand-lg py-0 px-lg-5">
+      <!--start-container-->
+      <div class="container px-lg-5">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/book-23.jfif" class="img-fluid rounded-circle"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--start-collapse-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase text-white fw-bold"
+                href="our-books.html"
+                >Our-books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="activities.html"
+                >Activities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--end-collapse-->
+      </div>
+      <!--end-container-->
+    </nav>
+    <!---------------------------------------------our-books------------------------------------------->
+
+    <!--start-container-->
+    <div class="container my-5 my-sm-5 my-md-4 px-lg-5">
+      <!--start-row-->
+      <div class="row gx-3 gy-3 mb-3">
+        <h3 class="text-capitalize text-center">
+          Find the Perfect Book for Your Little One – Shop Now!
+        </h3>
+        <!--start-col-->
+        <div class="col-lg-3 col-md-6 col-12">
+          <!--start-our-books-->
+          <div class="our-books border border-danger-subtle border-3 p-3">
+            <img src="./images/rhyme.jfif" class="img-fluid w-100" />
+
+            <h4 class="fw-bold text-center">Rs.180</h4>
+            <!--start-button-->
+            <div class="d-flex gap-2">
+              <button class="btn btn-warning w-100 text-capitalize fw-bold">
+                Add to cart
+              </button>
+              <button class="btn btn-info w-100 text-uppercase fw-bold">
+                buy now
+              </button>
+            </div>
+            <!--start-button-->
+          </div>
+          <!--start-our-books-->
+        </div>
+        <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/alphabet.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.100</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/story.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.250</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/table.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.175</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+      </div>
+      <!--end-row-->
+      <!-------------------------row-------------------------->
+      <!--start-row-->
+      <div class="row gx-3 gy-3 mb-3">
+        <!--start-col-->
+        <div class="col-lg-3 col-md-6 col-12">
+          <!--start-our-books-->
+          <div class="our-books border border-danger-subtle border-3 p-3">
+            <img src="./images/weather.jfif" class="img-fluid w-100" />
+
+            <h4 class="fw-bold text-center">Rs.210</h4>
+            <!--start-button-->
+            <div class="d-flex gap-2">
+              <button class="btn btn-warning w-100 text-capitalize fw-bold">
+                Add to cart
+              </button>
+              <button class="btn btn-info w-100 text-uppercase fw-bold">
+                buy now
+              </button>
+            </div>
+            <!--start-button-->
+          </div>
+          <!--start-our-books-->
+        </div>
+        <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/art-craft.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.320</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/drawing.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.110</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/activity.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.150</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+      </div>
+      <!--end-row-->
+      <!-------------------------row-------------------------->
+      <!--start-row-->
+      <div class="row gx-3 gy-3 mb-3">
+        <!--start-col-->
+        <div class="col-lg-3 col-md-6 col-12">
+          <!--start-our-books-->
+          <div class="our-books border border-danger-subtle border-3 p-3">
+            <img src="./images/music.jfif" class="img-fluid w-100" />
+
+            <h4 class="fw-bold text-center">Rs.430</h4>
+            <!--start-button-->
+            <div class="d-flex gap-2">
+              <button class="btn btn-warning w-100 text-capitalize fw-bold">
+                Add to cart
+              </button>
+              <button class="btn btn-info w-100 text-uppercase fw-bold">
+                buy now
+              </button>
+            </div>
+            <!--start-button-->
+          </div>
+          <!--start-our-books-->
+        </div>
+        <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/opposite.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.250</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/poet.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.140</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+       <!--start-col-->
+       <div class="col-lg-3 col-md-6 col-12">
+        <!--start-our-books-->
+        <div class="our-books border border-danger-subtle border-3 p-3">
+          <img src="./images/historical.jfif" class="img-fluid w-100" />
+
+          <h4 class="fw-bold text-center">Rs.187</h4>
+          <!--start-button-->
+          <div class="d-flex gap-2">
+            <button class="btn btn-warning w-100 text-capitalize fw-bold">
+              Add to cart
+            </button>
+            <button class="btn btn-info w-100 text-uppercase fw-bold">
+              buy now
+            </button>
+          </div>
+          <!--start-button-->
+        </div>
+        <!--start-our-books-->
+      </div>
+      <!--ends-col-->
+        <!---------------------------------------------------------->
+      </div>
+      <!--end-row-->
+      <!-------------------------row-------------------------->
+    </div>
+    <!--end-container-->
+
+    <!---------------------------------footer--------------------------------------->
+    <footer class="bg-footer">
+      <!--start-container-footer-->
+      <div class="container px-5">
+        <!--start-row-->
+        <div class="row g-3">
+          <!--start-col-1-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize">Our Play Zone</h5>
+            <h6 class="text-capitalize">"where to find us..!</h6>
+            <span class="span-style text-capitalize fw-bold">
+              <i class="fa-solid fa-book"></i>
+              kidz-book-world
+              <i class="fa-solid fa-book"></i
+            ></span>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">streetname:</span>
+              "123 Toyland Avenue, Fun City"
+            </p>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">mob:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                +91 123456789</a
+              >
+            </p>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">email:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                kidzbookworld@gmail.com</a
+              >
+            </p>
+          </div>
+          <!--end-col-1-->
+          <!--start-col-2-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">stay updated</h5>
+            <ul class="list-inline mb-0">
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-whatsapp"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-facebook"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-instagram"></i></li
+              ></span>
+            </ul>
+            <h6 class="text-capitalize mt-2 mb-0">quick links</h6>
+            <ul class="list-inline mt-1">
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Order Tracking</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Shipping Information</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Returns & Exchanges</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-2-->
+          <!--start-col-3-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">explore our books</h5>
+            <ul class="list-inline">
+              <li class="text-capitalize">
+                <a
+                  href="about.html#albhabet"
+                  class="text-dark text-decoration-none"
+                  >Alphabet books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#story"
+                  class="text-dark text-decoration-none"
+                  >Story books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#activity"
+                  class="text-dark text-decoration-none"
+                  >Learning & Activity Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#book-gift"
+                  class="text-dark text-decoration-none"
+                  >Books for Gifts</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#rhyme"
+                  class="text-dark text-decoration-none"
+                  >Rhyme Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#art-craft"
+                  class="text-dark text-decoration-none"
+                  >Art & Craft Books</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-3-->
+        </div>
+        <p class="fw-bold mx-auto text-center">
+          &copy; 2025
+          <span class="span-style text-capitalize">
+            <i class="fa-solid fa-book"></i>
+            kidz-book-world
+            <i class="fa-solid fa-book"></i> </span
+          >. All rights reserved.
+        </p>
+        <!--end-row-->
+      </div>
+      <!--end-container-footer-->
+    </footer>
+    <!-----------------------------link bootstarp js------------------------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

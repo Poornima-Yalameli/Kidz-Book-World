@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kidz-book-world</title>
+    <!---------------------link bootstrap cdn link------------------------------------>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--------------------------------google font link----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------------------------------font-icons------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        color: #000000;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Saira", sans-serif;
+        color: #660033;
+      }
+      .navbar {
+        background-color: #bf7587;
+      }
+      .navbar .navbar-brand img {
+        height: 3rem;
+        width: 3rem;
+      }
+      .navbar-nav .nav-item .nav-link.active {
+        background-color: #660033;
+      }
+      .span-style {
+        color: #660033;
+      }
+      .bg-footer {
+        background-color: #f4e3d7;
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      .our-shop img {
+        height: 38vh;
+      }
+      .store-img img {
+        height: 30vh;
+        width: 100%;
+      }
+      .card .card-img-top {
+        height: 40vh;
+      }
+      .explore-imgs img {
+        height: 38vh;
+      }
+      .alert-img img{
+        height: 30vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-----------------------------------navbar------------------------------------>
+    <nav class="navbar navbar-expand-lg py-0 px-lg-5">
+      <!--start-container-->
+      <div class="container px-lg-5">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/book-23.jfif" class="img-fluid rounded-circle"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--start-collapse-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase text-white fw-bold"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="our-books.html"
+                >Our-books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="activities.html"
+                >Activities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase text-white fw-bold"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--end-collapse-->
+      </div>
+      <!--end-container-->
+    </nav>
+    <!-------------------------------about---------------------------------------->
+    <!--start-container-->
+    <div class="container my-5 my-sm-5 my-md-4 px-lg-5">
+      <!--start-row-->
+      <div class="row g-4">
+        <h3 class="text-capitalize text-center">welcome to kidz book world</h3>
+        <!--start-col-left-->
+        <div class="col-lg-8 col-md-12 col-12">
+          <!--start-inner-row-->
+          <div class="row g-2 d-flex-coumn align-items-center">
+            <h5 class="text-capitalize">about our store..!</h5>
+            <!--start-inner-col-left-->
+            <div class="col-lg-4 col-md-4 col-12">
+              <!--start-store-img-->
+              <div class="store-img">
+                <img src="./images/buy-books-2.jfif" class="img-fluid w-100" />
+              </div>
+              <!--end-store-img-->
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-8 col-md-8 col-12">
+              <p class="fs-6 text-justify">
+                At kidz book world, we offer a carefully curated collection of
+                children's books designed to inspire and entertain. From picture
+                books to chapter books, we have something for every young
+                reader. Our store is easy to navigate, making it simple for
+                parents and teachers to find the perfect book for any occasion.
+                Whether you're looking for educational stories or fun
+                adventures, we’ve got it all. We’re committed to providing a
+                seamless shopping experience with fast shipping and great
+                customer service. We’re here to help bring the joy of reading
+                into your home!
+              </p>
+            </div>
+            <!--end-inner-col-right-->
+            <!--start-our-service-->
+            <div class="our-service mt-0">
+              <h5 class="text-capitalize">our service...!</h5>
+              <p class="fs-6 text-justify">
+                At kidz book world, we offer a carefully curated collection of
+                children's books designed to inspire and entertain. From picture
+                books to chapter books, we have something for every young
+                reader. Our store is easy to navigate, making it simple for
+                parents and teachers to find the perfect book for any occasion.
+                Whether you're looking for educational stories or fun
+                adventures, we’ve got it all. We’re committed to providing a
+                seamless shopping experience with fast shipping and great
+                customer service. We’re here to help bring the joy of reading
+                into your home!
+              </p>
+            </div>
+            <!--end-our-service-->
+          </div>
+          <!--end-inner-row-->
+        </div>
+        <!--end-col-left-->
+        <!--start-col-right-->
+        <div class="col-lg-4 col-md-12 col-12">
+          <!--start-our-shop-->
+          <h5 class="text-capitalize">vist our store...!</h5>
+          <div class="our-shop">
+            <img src="./images/book-store-1.jfif" class="img-fluid w-100" />
+          </div>
+          <!--end-our-shop-->
+          <!--start-shop-content-->
+          <div class="shop-content">
+            <p class="fs-6 text-justify">
+              Come visit our shop and explore our wide selection of children’s
+              books at our location. Whether you’re looking for a fun story or a
+              thoughtful tale, our friendly team is here to help you find the
+              perfect book for your child. With a welcoming atmosphere and
+              personalized recommendations, we aim to make your visit enjoyable
+              and special. We look forward to seeing you and sharing our love
+              for reading!
+            </p>
+          </div>
+          <!--end-shop-content-->
+        </div>
+        <!--end-col-right-->
+      </div>
+      <!--end-row-->
+    </div>
+    <!--end-container-->
+
+    <!------------------------------------about-2nd-sec---------------------------------->
+
+    <!--start-container-->
+    <div class="container my-5 my-sm-5 my-md-4 px-lg-5">
+      <h3 class="text-capitalize text-center">explored books here....</h3>
+      <!--start-row-->
+      <div class="row g-3">
+        <!--start-col-left-->
+        <div class="col-lg-8 col-12">
+          <!--start-inner-row-->
+          <div class="row g-3 d-flex-coumn align-items-center" id="alphabet">
+            <!--start-inner-col-left-->
+            <div class="col-lg-4 col-12">
+              <div class="explore-imgs">
+                <img src="./images/alphabet.jfif" class="img-fluid w-100" />
+              </div>
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-8 col-12">
+              <h5 class="text-justify">
+                Explore Our Alphabet Books for Little Learners!
+              </h5>
+              <p class="fs-6 text-justify">
+                Introduce your child to the wonderful world of letters with our
+                vibrant and fun Alphabet Books. Perfect for early learners,
+                these books feature colorful illustrations and engaging
+                activities that make learning the ABCs a joyful experience.
+                Whether it's tracing, matching, or identifying, our Alphabet
+                Books are the ideal start to your child’s reading journey!
+              </p>
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-->
+          <hr />
+          <!------------------------------------------------------------------------------>
+          <!--start-inner-row-2-->
+          <div class="row g-3 d-flex-coumn align-items-center" id="story">
+            <!--start-inner-col-left-->
+            <div class="col-lg-4 col-12">
+              <div class="explore-imgs">
+                <img src="./images/story.jfif" class="img-fluid w-100" />
+              </div>
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-8 col-12">
+              <h5 class="text-justify">
+                Dive Into Moral Stories and Adventures!
+              </h5>
+              <p class="fs-6 text-justify">
+                Our Story Books collection is filled with enchanting tales that
+                will captivate your child’s imagination! From fairy tales to fun
+                adventures, each book is designed to develop reading skills
+                while entertaining young minds. These timeless stories are
+                perfect for bedtime or anytime your child wants to immerse
+                themselves in a world of imagination.
+              </p>
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-2-->
+          <hr />
+          <!------------------------------------------------------------------------------>
+          <!--start-inner-row-3-->
+          <div class="row g-3 d-flex-coumn align-items-center" id="activity">
+            <!--start-inner-col-left-->
+            <div class="col-lg-4 col-12">
+              <div class="explore-imgs">
+                <img src="./images/activity.jfif" class="img-fluid w-100" />
+              </div>
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-8 col-12">
+              <h5 class="text-justify">Fun Learning for Little Explorers!</h5>
+              <p class="fs-6 text-justify">
+                Our Learning & Activity Books are packed with exciting puzzles,
+                fun games, and creative activities that help kids learn while
+                having a blast! From coloring pages to simple brain teasers,
+                these books make learning fun and easy for little ones. Perfect
+                for sparking imagination and building new skills!
+              </p>
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-3-->
+          <hr />
+          <!------------------------------------------------------------------------------>
+          <!--start-inner-row-4-->
+          <div class="row g-3 d-flex-coumn align-items-center" id="book-gift">
+            <!--start-inner-col-left-->
+            <div class="col-lg-4 col-12">
+              <div class="explore-imgs">
+                <img src="./images/gift.jfif" class="img-fluid w-100" />
+              </div>
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-8 col-12">
+              <h5 class="text-justify">Perfect Gifts for Every Occasion!</h5>
+              <p class="fs-6 text-justify">
+                Looking for the ideal gift for a young reader? Our Books for
+                Gifts collection has something for everyone! Whether it’s for a
+                birthday, a special holiday, or just because, these books are
+                thoughtful and meaningful presents that will delight and inspire
+                children. Choose from a selection of fun and educational stories
+                that make the perfect gift for any child.
+              </p>
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-4-->
+          <hr />
+          <!------------------------------------------------------------------------------>
+          <!--start-inner-row-->
+          <div class="row g-3 d-flex-coumn align-items-center" id="rhyme">
+            <!--start-inner-col-left-->
+            <div class="col-lg-4 col-12">
+              <div class="explore-imgs">
+                <img src="./images/rhyme.jfif" class="img-fluid w-100" />
+              </div>
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-8 col-12">
+              <h5 class="text-justify">Rhymes and Rhythms for Little Ones!</h5>
+              <p class="fs-6 text-justify">
+                Our Rhyme Books are a delightful way to introduce children to
+                the magic of rhyming and rhythm. These books are filled with
+                catchy rhymes, playful poems, and fun illustrations that are
+                perfect for early language development. Ideal for reading aloud,
+                our Rhyme Books encourage children to sing, rhyme, and build
+                their vocabulary while having fun!
+              </p>
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-->
+          <hr />
+          <!------------------------------------------------------------------------------>
+          <!--start-inner-row-5-->
+          <div class="row g-3 d-flex-coumn align-items-center" id="art-craft">
+            <!--start-inner-col-left-->
+            <div class="col-lg-4 col-12">
+              <div class="explore-imgs">
+                <img src="./images/art-craft.jfif" class="img-fluid w-100" />
+              </div>
+            </div>
+            <!--end-inner-col-left-->
+            <!--start-inner-col-right-->
+            <div class="col-lg-8 col-12">
+              <h5 class="text-justify">
+                Spark Creativity with Our Art & Craft Books!
+              </h5>
+              <p class="fs-6 text-justify">
+                Unleash your child’s inner artist with our Art & Craft Books!
+                These books are packed with easy-to-follow instructions for fun
+                and creative projects that children will love. From drawing and
+                painting to cutting and gluing, these books inspire kids to
+                explore their artistic talents while improving their fine motor
+                skills. Perfect for rainy days or creative weekends!
+              </p>
+            </div>
+            <!--end-inner-col-right-->
+          </div>
+          <!--end-inner-row-6-->
+          <hr />
+          <!------------------------------------------------------------------------------>
+        </div>
+        <!--end-col-left-->
+        <!--start-col-right-->
+        <div class="col-lg-4 col-12">
+          <div class="alert alert-warning" role="alert">
+            <strong>Dive into the World of Stories! </strong> <br>
+             Looking for the perfect
+            book? Don’t miss out on our handpicked collections! From
+            adventure-filled storybooks to fun learning activities, we’ve got
+            something special for every child. Browse our categories today and
+            bring the joy of reading home! Happy reading! 
+          </div>
+          <div class="alert-img">
+            <img src="./images/reading.jfif" class="img-fluid w-100">
+          </div>
+          
+          <h5 class="text-capitalize">
+            click me...! to explore our collection
+          </h5>
+          <div class="d-grid">
+            <button class="btn btn-primary" type="button">
+              <a
+              href="#alphabet"
+              class="text-white text-decoration-none fw-bold"
+              >Alphabet</a
+              >
+            </button>
+            <button class="btn btn-secondary" type="button">
+              <a href="#story" class="text-white text-decoration-none fw-bold"
+                >Story</a
+              >
+            </button>
+            <button class="btn btn-danger" type="button">
+              <a
+                href="#activity"
+                class="text-white text-decoration-none fw-bold"
+                >Activity</a
+              >
+            </button>
+            <button class="btn btn-warning" type="button">
+              <a
+                href="#book-gift"
+                class="text-white text-decoration-none fw-bold"
+                >Book-Gift</a
+              >
+            </button>
+            <button class="btn btn-success" type="button">
+              <a href="#rhyme" class="text-white text-decoration-none fw-bold"
+                >Rhyme</a
+              >
+            </button>
+            <button class="btn btn-info" type="button">
+              <a
+                href="#art-craft"
+                class="text-white text-decoration-none fw-bold"
+                >Art-craft</a
+              >
+            </button>
+          </div>
+        </div>
+        <!--end-col-rignt-->
+      </div>
+      <!--end-row-->
+    </div>
+    <!--end-container-->
+
+    <!---------------------------------footer--------------------------------------->
+    <footer class="bg-footer">
+      <!--start-container-footer-->
+      <div class="container px-5">
+        <!--start-row-->
+        <div class="row g-3">
+          <!--start-col-1-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize">Our Play Zone</h5>
+            <h6 class="text-capitalize">"where to find us..!</h6>
+            <span class="span-style text-capitalize fw-bold">
+              <i class="fa-solid fa-book"></i>
+              kidz-book-world
+              <i class="fa-solid fa-book"></i
+            ></span>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">streetname:</span>
+              "123 Toyland Avenue, Fun City"
+            </p>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">mob:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                +91 123456789</a
+              >
+            </p>
+            <p class="m-0">
+              <span class="text-capitalize fw-bold">email:</span
+              ><a href="#" class="text-dark text-decoration-none">
+                kidzbookworld@gmail.com</a
+              >
+            </p>
+          </div>
+          <!--end-col-1-->
+          <!--start-col-2-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">stay updated</h5>
+            <ul class="list-inline mb-0">
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-whatsapp"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-facebook"></i></li
+              ></span>
+              <span class="span-style fs-4"
+                ><li class="list-inline-item px-1">
+                  <i class="fa-brands fa-instagram"></i></li
+              ></span>
+            </ul>
+            <h6 class="text-capitalize mt-2 mb-0">quick links</h6>
+            <ul class="list-inline mt-1">
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Order Tracking</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Shipping Information</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="text-dark text-decoration-none"
+                  >Returns & Exchanges</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-2-->
+          <!--start-col-3-->
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mx-auto text-center">
+            <h5 class="text-capitalize mb-0">explore our books</h5>
+            <ul class="list-inline">
+              <li class="text-capitalize">
+                <a
+                  href="about.html#albhabet"
+                  class="text-dark text-decoration-none"
+                  >Alphabet books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#story"
+                  class="text-dark text-decoration-none"
+                  >Story books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#activity"
+                  class="text-dark text-decoration-none"
+                  >Learning & Activity Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#book-gift"
+                  class="text-dark text-decoration-none"
+                  >Books for Gifts</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#rhyme"
+                  class="text-dark text-decoration-none"
+                  >Rhyme Books</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a
+                  href="about.html#art-craft"
+                  class="text-dark text-decoration-none"
+                  >Art & Craft Books</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--end-col-3-->
+        </div>
+        <p class="fw-bold mx-auto text-center">
+          &copy; 2025
+          <span class="span-style text-capitalize">
+            <i class="fa-solid fa-book"></i>
+            kidz-book-world
+            <i class="fa-solid fa-book"></i> </span
+          >. All rights reserved.
+        </p>
+        <!--end-row-->
+      </div>
+      <!--end-container-footer-->
+    </footer>
+    <!-----------------------------link bootstarp js------------------------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
